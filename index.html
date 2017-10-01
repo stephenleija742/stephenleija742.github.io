@@ -11,27 +11,24 @@
       crossorigin="anonymous">
   </head>
   <body>
+    <div class="container-fluid px-0">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+       <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="navbarToggler" aria-controls="navbarToggler"
+        aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarToggler">
+        <nav class="navbar-nav">
+          <a class="nav-item nav-link" href="#">Home</a>
+          <a class="nav-item nav-link active" href="blog.html">Blog</a>
+        </nav>
+       </div>
+     </nav>
+    </div>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-1">
-          <nav class="navbar navbar-dark bg-dark h-100 w-100 navbar-expand-lg"
-           style="position: absolute; left: 0;">
-           <button class="navbar-toggler w-100" type="button" data-toggle="collapse"
-            data-target="navbarToggler" aria-controls="navbarToggler"
-            aria-expanded="false" aria-label="Toggle navigation"
-            style="position: absolute; left: 0; top: 0;">
-             <span class="navbar-toggler-icon"></span>
-           </button>
-           <div class="collapse navbar-collapse" id="navbarToggler"
-            style="position: absolute; left: 0; top: 0;">
-            <nav class="flex-column">
-              <a class="nav-link" style="padding-left: 10%" href="#">Home</a>
-              <a class="nav-link active" style="padding-left: 10%"
-               href="blog.html">Blog</a>
-            </nav>
-           </div>
-          </nav>
-        </div>
+        <div class="col-1"></div>
           <div class="col-9 mx-auto">
             <section>
               <h1 class="text-center">About Me</h1>
