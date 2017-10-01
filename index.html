@@ -11,21 +11,30 @@
       crossorigin="anonymous">
   </head>
   <body>
-    <h1 class="text-center">About Me</h1>
-    <div class="container-fluid text-center">
-      <div class="row mx-auto">
-        <div class="col-1 mr-auto">
-          <aside>
-            <nav class="navbar navbar-light bg-white">
-              <nav class="flex-column">
-                <a class="nav-item nav-link active" href="">Home</a>
-                <a class="nav-item nav-link" href="blog.html">Blog</a>
-              </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-1">
+          <nav class="navbar navbar-dark bg-dark h-100 w-100 navbar-expand-lg"
+           style="position: absolute; left: 0;">
+           <button class="navbar-toggler w-100" type="button" data-toggle="collapse"
+            data-target="navbarToggler" aria-controls="navbarToggler"
+            aria-expanded="false" aria-label="Toggle navigation"
+            style="position: absolute; left: 0; top: 0;">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarToggler"
+            style="position: absolute; left: 0; top: 0;">
+            <nav class="flex-column">
+              <a class="nav-link" style="padding-left: 10%" href="#">Home</a>
+              <a class="nav-link active" style="padding-left: 10%"
+               href="blog.html">Blog</a>
             </nav>
-          </aside>
+           </div>
+          </nav>
         </div>
-          <div class="col-9">
+          <div class="col-9 mx-auto">
             <section>
+              <h1 class="text-center">About Me</h1>
               <p class="text-justify">Hi, my name is Stephen Leija</p>
               <p class="text-justify">I am currently a QA Software Engineer at Auto Injury Solutions.
                 At AIS I am responsible for creation of test plans based on UML requirements,
@@ -35,7 +44,6 @@
                 scripts to call companies Web Services and query our test database.
                 <p class="text-justify">I graduated from UTSA in May 2016 with a Bachelors in Computer Science;
                   Concentrations in Software Engineering; Computer and Information Security</p>
-              <hr/>
             </section>
             </div>
             <div class="col-2 pt-auto">
@@ -47,6 +55,7 @@
 	     </div>
 		 <div class="container-fluid text-center">
 		  <div class="row">
+      </hr>
             <div class="col-1"></div>
             <div class="col-md">
               <a href="https://placeholder.com">
