@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" style="min-height: 100%; position: relative;">
   <head>
     <title>My Blog</title>
     <meta charset="utf-8">
@@ -11,8 +11,8 @@
       integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
       crossorigin="anonymous">
   </head>
-  <body>
-    <div class="container-fluid px-0">
+  <body style="height: 100%;">
+    <!--<div class="container-fluid px-0">
       <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
        <button class="navbar-toggler" type="button" data-toggle="collapse"
         data-target="navbarToggler" aria-controls="navbarToggler"
@@ -26,11 +26,11 @@
         </nav>
        </div>
      </nav>
-    </div>
-    <div class="container-fluid">
+   </div>-->
+    <!--<div class="container-fluid">
       <div class="row">
         <div class="col-1">
-            <!--<nav class="navbar navbar-dark bg-dark h-100 w-100 navbar-expand-lg"
+            <nav class="navbar navbar-dark bg-dark h-100 w-100 navbar-expand-lg"
              style="position: absolute; left: 0;">
              <button class="navbar-toggler w-100" type="button" data-toggle="collapse"
               data-target="navbarToggler" aria-controls="navbarToggler"
@@ -40,12 +40,12 @@
              </button>
              <div class="collapse navbar-collapse" id="navbarToggler"
               style="position: absolute; left: 0; top: 0;">
-              <nav class="flex-column">
+              <nav class="navbar-nav flex-column">
                 <a class="nav-link" style="padding-left: 10%" href="https://stephenleija742.github.io">Home</a>
                 <a class="nav-link active" style="padding-left: 10%" href="">Blog</a>
               </nav>
              </div>
-           </nav>-->
+           </nav>
         </div>
         <div class="col-10 text-center">
           <section>
@@ -86,7 +86,71 @@
         </div>
         <div class="col-1"></div>
       </div>
+    </div>-->
+
+    <div class="container-fluid px-0" style="position: absolute; top: 0; bottom: 0; right: 0; left: 0;">
+      <nav class="navbar navbar-dark bg-dark h-100 navbar-expand-lg"
+       style="position: relative; left: 0; width: 16.666667%;">
+       <button class="navbar-toggler w-100" type="button" data-toggle="collapse"
+        data-target="navbarToggler" aria-controls="navbarToggler"
+        aria-expanded="false" aria-label="Toggle navigation"
+        style="position: relative; top: -41%;">
+         <span class="navbar-toggler-icon w-100"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarToggler"
+        style="position: relative; top: -39%;">
+        <nav class="navbar-nav flex-column mx-auto">
+          <a class="nav-link" href="https://stephenleija742.github.io">Home</a>
+          <a class="nav-link active" href="">Blog</a>
+        </nav>
+      </div>
+    </nav>
     </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-8 text-center">
+          <section>
+            <h1>Blog</h1>
+            <p>On the other hand, we denounce with righteous indignation and
+               dislike men who are so beguiled and demoralized by the charms of
+               pleasure of the moment, so blinded by desire, that they cannot
+               foresee the pain and trouble that are bound to ensue; and equal
+               blame belongs to those who fail in their duty through weakness of
+               will, which is the same as saying through shrinking from toil and
+               pain. These cases are perfectly simple and easy to distinguish.
+               In a free hour, when our power of choice is untrammelled and when
+               nothing prevents our being able to do what we like best, every
+               pleasure is to be welcomed and every pain avoided. But in certain
+               circumstances and owing to the claims of duty or the obligations
+               of business it will frequently occur that pleasures have to be
+               repudiated and annoyances accepted. The wise man therefore always
+               holds in these matters to this principle of selection: he rejects
+               pleasures to secure other greater pleasures, or else he endures
+               pains to avoid worse pains. Added text</p>
+          </section>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+          <form action="https://www.google.com/search">
+            <div class="form-group">
+              <label for="commentsection">Comment Section</label>
+              <input name="commentVar" id="commentsection" class="form-control"
+               type="text-area"/>
+              <input type="submit" name="Submit" value="Post Comment"/>
+            </div>
+          </form>
+        </div>
+        <div class="col-2"></div>
+      </div>
+
   </body>
 
 </html>
