@@ -7,6 +7,10 @@ body {
   height: 100%;
 }
 
+a {
+  z-index: 1;
+}
+
 .navContainer {
   position: absolute;
   top: 0;
